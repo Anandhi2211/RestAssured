@@ -1,6 +1,6 @@
 package com.udemy.restassured.basics;
 
-import com.udemy.restassured.files.PayLoadFile;
+import com.udemy.restassured.files.library.PayLoadFile;
 import io.restassured.path.json.JsonPath;
 
 public class ReadJsonFile {
