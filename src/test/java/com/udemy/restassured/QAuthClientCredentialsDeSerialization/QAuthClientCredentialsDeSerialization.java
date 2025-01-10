@@ -1,6 +1,6 @@
 package com.udemy.restassured.QAuthClientCredentialsDeSerialization;
 
-import com.udemy.restassured.QAuthClientCredentialsDeSerialization.pojo.CourseDetails;
+import com.udemy.restassured.QAuthClientPOJO.CourseDetails;
 import io.restassured.parsing.Parser;
 import io.restassured.path.json.JsonPath;
 import org.testng.Assert;

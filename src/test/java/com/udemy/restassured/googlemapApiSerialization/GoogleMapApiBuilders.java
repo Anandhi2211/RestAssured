@@ -1,8 +1,8 @@
 package com.udemy.restassured.googlemapApiSerialization;
 
-import com.udemy.restassured.googlemapApiSerialization.pojogooglemap.AddLocationDetails;
-import com.udemy.restassured.googlemapApiSerialization.pojogooglemap.Location;
-import com.udemy.restassured.googlemapApiSerialization.pojogooglemap.Place;
+import com.udemy.restassured.GoogleMapPOJO.AddLocationDetails;
+import com.udemy.restassured.GoogleMapPOJO.Location;
+import com.udemy.restassured.GoogleMapPOJO.Place;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;

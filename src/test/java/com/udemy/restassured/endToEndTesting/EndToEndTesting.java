@@ -1,17 +1,15 @@
 package com.udemy.restassured.endToEndTesting;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.udemy.restassured.endToEndTesting.pojo.payload.CreateOrderPayload;
-import com.udemy.restassured.endToEndTesting.pojo.payload.LoginDetails;
-import com.udemy.restassured.endToEndTesting.pojo.payload.Orders;
-import com.udemy.restassured.endToEndTesting.pojo.payload.ProductDetails;
-import com.udemy.restassured.endToEndTesting.pojo.response.AddProductResponse;
-import com.udemy.restassured.endToEndTesting.pojo.response.CreateOrder;
-import com.udemy.restassured.endToEndTesting.pojo.response.LoginResponse;
+import com.udemy.restassured.EndToEndTestingPOJO.payload.CreateOrderPayload;
+import com.udemy.restassured.EndToEndTestingPOJO.payload.LoginDetails;
+import com.udemy.restassured.EndToEndTestingPOJO.payload.Orders;
+import com.udemy.restassured.EndToEndTestingPOJO.payload.ProductDetails;
+import com.udemy.restassured.EndToEndTestingPOJO.response.AddProductResponse;
+import com.udemy.restassured.EndToEndTestingPOJO.response.CreateOrder;
+import com.udemy.restassured.EndToEndTestingPOJO.response.LoginResponse;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
-import io.restassured.path.json.JsonPath;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 import org.testng.annotations.BeforeClass;

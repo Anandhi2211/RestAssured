@@ -1,8 +1,7 @@
 package com.udemy.restassured.basics;
 
-import com.udemy.restassured.files.library.PayLoadFile;
+import com.udemy.restassured.basics.files.library.PayLoadFile;
 import io.restassured.RestAssured;
-import io.restassured.path.json.JsonPath;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
